@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: flask-app
+    env: python
+    runtime:
+      version: '3.10'
+    build:
+      command: pip install -r requirements.txt
+    run:
+      command: python main.py
+    port: 5000
+    healthCheck:
+      enabled: true
+      interval: 10
+      timeout: 5
+      threshold: 3
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: '1'
