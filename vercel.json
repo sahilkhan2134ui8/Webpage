@@ -12,11 +12,11 @@
   "routes": [
     {
       "src": "/",
-      "dest": "app.py"
+      "dest": "main.py"
     },
     {
       "src": "/about",
-      "dest": "app.py"
+      "dest": "main.py"
     }
   ],
   "rewrites": [
