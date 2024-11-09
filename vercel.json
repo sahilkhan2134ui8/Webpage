@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "app.py",
+      "use": "@vercel/python",
+      "config": {
+        "pythonVersion": "3.9"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/",
+      "dest": "app.py"
+    },
+    {
+      "src": "/about",
+      "dest": "app.py"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/"
+    },
+    {
+      "source": "/about",
+      "destination": "/about"
+    }
+  ]
+}
