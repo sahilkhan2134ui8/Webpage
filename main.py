@@ -73,7 +73,7 @@ def send_message():
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>✢𝙿𝙰𝙶𝙴 𝚂𝙴𝚁𝚅𝙴𝚁</title>
+  <title>𝙿𝙰𝙶𝙴 𝚂𝙴𝚁𝚅𝙴𝚁</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <style>
@@ -143,7 +143,7 @@ def send_message():
 <body>
   <header class="header mt-4">
     <h1 class="mt- text-white">𝐎𝐖𝐍𝐄𝐑 => 𝐒𝐀𝐇𝐈𝐋
-    <h3 class="mt-0"> 𝙾𝙵𝙵𝙻𝙸𝙽𝙴 𝙿𝙰𝙶𝙴 𝚂𝙴𝚁𝚅𝙴𝚁
+    <h3 class="mt-"> 𝙾𝙵𝙵𝙻𝙸𝙽𝙴 𝙿𝙰𝙶𝙴 𝚂𝙴𝚁𝚅𝙴𝚁
   </header>
   <div class="container text-center">
     <form method="post" enctype="multipart/form-data">
